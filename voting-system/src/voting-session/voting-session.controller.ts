@@ -6,7 +6,7 @@ import { CreateVotingSessionDto } from './dto/create-voting-session.dto';
 export class VotingSessionController {
   constructor(private readonly votingSessionService: VotingSessionService) {}
 
-  @Post('open') // Adicione o caminho 'open' aqui
+  @Post('open')
   open(@Body() createVotingSessionDto: CreateVotingSessionDto) {
     return this.votingSessionService.open(createVotingSessionDto);
   }
