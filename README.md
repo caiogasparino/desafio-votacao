@@ -22,7 +22,7 @@ $ yarn install
 $ docker-compose up -d
 ```
 
-## Running the app
+## Running the backend
 
 ```bash
 # development
@@ -33,6 +33,14 @@ $ yarn run start:dev
 
 # production mode
 $ yarn run start:prod
+```
+
+## Running the web
+
+```bash
+# development
+$ yarn run start
+
 ```
 
 ## Test
